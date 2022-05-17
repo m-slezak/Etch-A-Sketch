@@ -1,15 +1,20 @@
 
 
 const divContainer = document.querySelector('#container');
-let divs;
+let div;
 
 for(let i = 0; i < 256; i++){
-    divs = document.createElement('div');
-    divs.classList.add('.div-element')
-    divs.setAttribute('style', 'border: solid 3px black')
-    divContainer.appendChild(divs)
+    div = document.createElement('div');
+    div.classList.add('div-element')
+    div.setAttribute('style', 'border: solid 3px black')
+    divContainer.appendChild(div)
 }
 
+const allDivs = document.querySelectorAll('.div-element');
+
+allDivs.forEach(div => div.addEventListener('mouseenter', () =>{
+    div.style.backgroundColor = 'black';
+}))
 
 
 

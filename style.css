@@ -6,9 +6,7 @@
     height: 600px;
 
 }
-.div-element{
-    width:100px;
-    height: 100px;
-    border: 2px solid black;
-    justify-self: stretch;
+
+.div-element-hover{
+    background-color: black;
 }
