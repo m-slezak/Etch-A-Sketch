@@ -1,12 +1,30 @@
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.button-container{
+    justify-self: flex-start;
+    align-self: flex-start;
+    border: 1px black solid;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
 #container{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-auto-rows: 1fr;
     width: 600px;
     height: 600px;
-
 }
 
 .div-element-hover{
     background-color: black;
+}
+
+button{
+    margin-bottom: 100px;
 }
