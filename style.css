@@ -1,30 +1,27 @@
-h1{
-    text-align: center;
-    margin-bottom: 100px;
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
 }
-.button-container{
-    justify-self: flex-start;
-    align-self: flex-start;
-    border: 1px black solid;
+.button-container {
+  justify-self: flex-start;
+  align-self: flex-start;
+  border: 1px black solid;
 }
-.wrapper{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
-#container{
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-auto-rows: 1fr;
-    width: 600px;
-    height: 600px;
+#container {
+  display: grid;
+  width: 500px;
+  height: 500px;
 }
 
-.div-element-hover{
-    background-color: black;
+.div-element-hover {
+  background-color: black;
 }
 
-button{
-    margin-bottom: 100px;
+button {
+  margin-bottom: 100px;
 }

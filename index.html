@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-a-Sketch</title>
     <script src="main.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>ETCH-A-SKETCH</h1>
     <div class="wrapper">
-    <div class = "button-container">
-    <input id = "input"  placeholder="How many squares you want">
-    <button id = "btn" type="submit">confirm</button>
+      <div class="button-container">
+        <input
+          id="input"
+          onchange="changeSize(this.value)"
+          placeholder="Square size: "
+        />
+        <button id="btn">change</button>
+      </div>
+      <div id="container"></div>
     </div>
-    <div id="container"></div>
-    </div>
-</body>
+  </body>
 </html>
