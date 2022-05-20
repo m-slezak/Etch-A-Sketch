@@ -2,11 +2,10 @@ h1 {
   text-align: center;
   margin-bottom: 100px;
 }
-.button-container {
-  justify-self: flex-start;
-  align-self: flex-start;
-  border: 1px black solid;
-}
+/* .button-container {
+
+} */
+
 .wrapper {
   display: flex;
   justify-content: space-around;
@@ -17,11 +16,10 @@ h1 {
   width: 500px;
   height: 500px;
 }
+#fieldset {
+  margin-top: 20px;
+}
 
 .div-element-hover {
   background-color: black;
-}
-
-button {
-  margin-bottom: 100px;
 }

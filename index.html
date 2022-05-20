@@ -10,14 +10,48 @@
   </head>
   <body>
     <h1>ETCH-A-SKETCH</h1>
+
     <div class="wrapper">
-      <div class="button-container">
-        <input
-          id="input"
-          onchange="changeSize(input.value)"
-          placeholder="Square size: "
-        />
-        <button id="btn">change</button>
+      <div id="options">
+        <fieldset>
+          <legend>Board size</legend>
+          <p class="para">
+            <input
+              id="input"
+              onchange="changeSize(input.value)"
+              placeholder="Enter value "
+            />
+            <button id="btn">change</button>
+          </p>
+        </fieldset id="options">
+        <fieldset id="fieldset">
+          <legend>Color options</legend>
+          <p class="para">
+            <label>
+              <input
+                type="radio"
+                name="changeColor"
+                value="black"
+              />black
+            </label>
+          </p>
+          <p class="para">
+            <label>
+              <input type="radio" name="changeColor" value="rainbow" />
+              rainbow</label
+            >
+          </p>
+          <p class="para">
+            <label>
+              <input
+                type="radio"
+                name="changeColor"
+                value="darker"
+              />darker</label
+            >
+          </p>
+          <button id="btn-2">accept</button>
+        </fieldset>
       </div>
       <div id="container"></div>
     </div>
