@@ -12,23 +12,47 @@ h1 {
 
 .wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
+}
+#options {
+  margin-right: 5rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+#input {
+  width: 100%;
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  width: 99px;
+  height: 50px;
+}
+.button:hover {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  background-color: rgb(36 63 89);
+  color: white;
 }
 #container {
   display: grid;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 #fieldset {
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .div-element-hover {
   background-color: black;
 }
 .footer {
+  font-size: 1.5rem;
   position: fixed;
   display: flex;
   justify-content: center;
