@@ -17,7 +17,7 @@ h1 {
 }
 #options {
   margin-right: 5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 #input {
@@ -63,7 +63,7 @@ h1 {
   background-color: rgb(36 63 89);
   color: white;
   text-align: center;
-  min-height: 2.5rem;
+  max-height: 2.5rem;
 }
 .link-github {
   text-decoration: none;
